@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --white: #f1f1f1;
+    --transition: .5s linear;
+    --scale: 1.05;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 400 62.5% 'Poppins', sans-serif;
+    text-decoration: none;
+    color: var(--white);
+    list-style: none;
+}

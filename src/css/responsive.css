@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .info {
+        align-items: center;
+    }
+
+    .info img.logo {
+        max-width: 30rem;
+    }
+
+    .info p.description {
+        width: 60%;
+    }
+
+    aside.socials {
+        position: static;
+        width: 100%;
+        flex-direction: row;
+        margin-bottom: 2.4rem;
+    }
+
+    aside.socials ul {
+        display: flex;
+        justify-content: flex-start;
+        min-height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .info img.logo {
+        max-width: 25rem;
+    }
+
+    .info p.description {
+        width: 80%;
+    }
+}
